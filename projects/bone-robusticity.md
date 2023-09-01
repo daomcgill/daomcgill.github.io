@@ -2,23 +2,27 @@
 layout: project
 type: project
 image: img/hist.png
-title: ""
-# All dates must be YYYY-MM-DD format!
+title: "Interpreting Surface Curvature Data on 3D Bone Meshes"
 date: 2023-08-31
 published: true
 labels:
   - Meshlab
   - Python
-summary: "Python code for interpreting raw surface curvature data oon 3D bone meshes."
+summary: "Python code for interpreting raw surface curvature data on 3D bone meshes."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/hist.png" class="img-thumbnail" >
-  <img width="200px" src="../img/selection.png" class="img-thumbnail" >
-  <img width="200px" src="../img/robusticity_ss.jpg" class="img-thumbnail" >
+<div align="center">
+  <img src="../img/hist.png" alt="Histogram" width="200px" style="margin-right: 10px">
+  <img src="../img/selection.png" alt="Selection" width="200px" style="margin-right: 10px">
+  <img src="../img/robusticity_ss.jpg" alt="Robusticity" width="200px">
 </div>
 
-The goal of this project was to measure surface curvature values of 3D meshes. They were meshes of scanned human bones. Prior to this, measurement of "robusticity" were made by looking at the bone and deciding a rough value between 1-5. This meant the numbers were not particularly accurate, and did not have much analytical merit. 
-I achieved a system for analyzing the surface curvature by using open source software for analyzing 3D triangular meshes, and combining this output with some Python code that gave a statistical analysis of the data.
+## Project Overview
 
-[Link:] (https://github.com/daomcgill/meshlab-bone-robusticity)
+The goal of this project was to accurately measure surface curvature values of 3D meshes, specifically scanned human bones. Previously, the measurement of "robusticity" relied on subjective visual assessment, leading to imprecise values with limited analytical value.
+
+To address this, I developed a system using open-source software for analyzing 3D triangular meshes. By combining the software's output with custom Python code, I was able to provide a comprehensive statistical analysis of the curvature data.
+
+## Project Repository
+
+Find the code and detailed information in the [GitHub repository](https://github.com/daomcgill/meshlab-bone-robusticity).
