@@ -12,9 +12,9 @@ summary: "Python code for interpreting raw surface curvature data on 3D bone mes
 ---
 
 <div align="center">
-  <img src="../img/hist.png" alt="Histogram" width="200px" style="margin-right: 10px">
-  <img src="../img/selection.png" alt="Selection" width="200px" style="margin-right: 10px">
-  <img src="../img/robusticity_ss.jpg" alt="Robusticity" width="200px">
+  <img src="../img/hist.png" alt="Histogram" width="300px" style="margin-right: 10px">
+  <img src="../img/selection.png" alt="Selection" width="300px" style="margin-right: 10px">
+  <img src="../img/robusticity_ss.jpg" alt="Robusticity" width="300px">
 </div>
 
 ## Project Overview
