@@ -16,7 +16,7 @@ summary: "Automate segmentation of skin in CT scans."
 
 ## Project Overview
 
-Medical image segmentation involves the critical task of dividing scans into distinct regions, enabling the isolation of specific areas of interest. Traditionally, this process demands significant time and effort from radiologists. However, recent advancements in Artificial Intelligence within the field of computer vision have paved the way for automated segmentation models. This project uses two open-source tools:
+Medical image segmentation involves the task of dividing scans into distinct regions, enabling the isolation of specific areas of interest. Traditionally, this process demands significant time and effort from radiologists. However, recent advancements in Artificial Intelligence within the field of computer vision have paved the way for automated segmentation models. This project uses two open-source tools:
 
 - [Monailabel](https://github.com/Project-MONAI/MonaiLabel)
 - [Slicer3D](https://www.slicer.org/)
