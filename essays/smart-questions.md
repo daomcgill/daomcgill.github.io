@@ -12,8 +12,6 @@ labels:
 
 # Asking Smart Questions to Get Answers From Smart People
 
-## How to ask questions the smart way
-
 [How to ask questions the smart way](http://www.catb.org/esr/faqs/smart-questions.html) is a guide on how to ask high quality questions, to get high quality answers. Here is a short summary of the process:
 
 1. Try to find the answer in existing resources (forums, google, manuals, etc.). Keeping a log of what has been learned will make it easier to form a question later.
