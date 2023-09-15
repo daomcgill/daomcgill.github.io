@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Upgrading to Javascript"
+title: "Upgrading to JavaScript"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-29
 published: true
@@ -9,9 +9,6 @@ labels:
   - Software Engineering
   - Learning
 ---
-
-# Upgrading to JavaScript
-Dao McGill
 
 **The first programming language I ever learned was Java.** I'm not sure if it was because everything about Computer Science was completely new to me, but I had a lot of difficulty getting even the simplest code to work the way I wanted it to. I often forgot the syntax and constantly omitted semicolons and brackets. A few years—and many new programming languages—have passed since then, and I am now learning JavaScript. I am amazed by how much more naturally it comes to me and how much sense everything makes.
 
@@ -25,4 +22,5 @@ Dao McGill
 
 ### JavaScript and WODs
 
-I think JavaScript is an optimal language for use in WODs since they are timed and high-pressure. I was a little intimidated by the WODs at first, but they have actually proven to be a good way to learn to write code under pressure. I usually spend a long time thinking about what I will write before I actually start, but the WODs have shown me that sometimes this is not as necessary as I once thought.
+WODs: High pressure coding assignments that have to be completed within a time limit. 
+I think JavaScript is an optimal language for use in WODs. I was a little intimidated by the WODs at first, but they have actually proven to be a good way to learn to write code under pressure. I usually spend a long time thinking about what I will write before I actually start, but the WODs have shown me that sometimes this is not as necessary as I once thought.
