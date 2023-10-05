@@ -26,6 +26,6 @@ But do you *really* need a framework? Not necessarily. The digital universe is r
 
 Even in its simplicity GitHub encompasses essential UI components like buttons, dropdowns, and search functionalities. However, compare this to a site like [Wokine](https://www.wokine.com/en):
 
-<img width="400px" src="../img/wokine1.png"> <img width="400px" src="../img/wokine2.png">
+<img width="500px" src="../img/wokine1.png"> <img width="500px" src="../img/wokine2.png">
 
 The stark difference in aesthetics and interactivity is evident. While achieving such a sophisticated look without frameworks isn't impossible, the challenge and time commitment might be daunting. Bootstrap, despite its intricacies, streamlines the process, enabling developers to craft visually stunning web pages with comparative ease.
