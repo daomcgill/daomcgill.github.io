@@ -11,7 +11,7 @@ labels:
   - Coding Standards
   - ESLint
 ---
-## Growing Pains
+# Growing Pains
 When I first started programming, I was introduced to the concept of coding standards. At the time they seemed like an unnecessary hurdle. In school, we’re taught to write essays with proper English, but writing code isn’t like crafting an essay; it's a whole different beast. While the importance of clear code is undeniable, the attention to detail that coding standards demanded were tedious.
 
 ## Discovering the Magic of ESLint
