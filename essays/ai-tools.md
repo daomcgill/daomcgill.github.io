@@ -13,7 +13,7 @@ labels:
   - CoPilot
 ---
 # Using AI in Software Engineering Classes
-![ai-tools](https://github.com/daomcgill/daomcgill.github.io/blob/main/img/ai-tools.jpg)
+![ai-tools](/img/ai-tools.jpg)
 This image was generated with ChatGPT. Prompt: "generate an image for this essay [paste essay text]."
 
 ## Introduction
