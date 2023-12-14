@@ -1,0 +1,69 @@
+{
+  "basics": {
+    "name": "Dao McGill",
+    "label": "Student",
+    "picture": "https://github.com/daomcgill.png",
+    "email": "dmcgill@hawaii.edu",
+    "phone": "808-393-1289",
+    "website": "https://daomcgill.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Fall, 2024.",
+    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "daomcgill", "url": "http://github.com/daomcgill" },
+      { "network": "linkedin", "username": "daomcgill", "url": "http://linkedin.com/in/daomcgill" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Biomedical Technology" },
+    { "name": "Fintech" },
+    { "name": "Surfing" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "Python", "Java", "Javascript", "Kotlin" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present"
+    }
+  ],
+  "work": [
+    {
+      "company": "John A. Burns School of Medicine",
+      "position": "Student Intern",
+      "website": "",
+      "startDate": "2021-10-01",
+      "endDate": "Present",
+      "summary": "Biomedical technology research",
+      "highlights": [
+        "Develop program to analyze surface curvature data for 3D bone meshes",
+        "Worked with medical professionals to train, validate, and implement AI-driven models, designed for enhancing the precision and efficacy of image-guided surgical techniques",
+        "Implemented Google MediaPipe for use in a custom Android application and designed a method to map facial recognition to models",
+        "Wrote Python code to perform analysis on raw data and derive useful statistical values" ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Undergraduate Research Opportunities Program Grant",
+      "date": "2023-01",
+      "awarder": "UROP",
+      "summary": "Grant for undergraduate research in the field of biomedical related technology."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

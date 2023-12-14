@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="AI-generated Skin Segmentation of CT Craniofacial Scans | Dao McGill | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/daomcgill.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dao McGill | Professional Portfolio">
+    <meta property="og:url" content="https://daomcgill.github.io/projects/AI-craniofacial-segmentations.html">
+    <meta property="og:title" content="AI-generated Skin Segmentation of CT Craniofacial Scans | Dao McGill | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/daomcgill.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>AI-generated Skin Segmentation of CT Craniofacial Scans | Dao McGill | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Dao McGill</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">AI-generated Skin Segmentation of CT Craniofacial Scans</h1>
+ <p><img class="img-fluid" src="../img/slicer.jpg" /></p>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>Medical image segmentation involves the task of dividing scans into distinct regions, enabling the isolation of specific areas of interest. Traditionally, this process demands significant time and effort from radiologists. However, recent advancements in Artificial Intelligence within the field of computer vision have paved the way for automated segmentation models. This project uses two open-source tools:</p>
+
+<ul>
+  <li><a href="https://github.com/Project-MONAI/MonaiLabel">Monailabel</a></li>
+  <li><a href="https://www.slicer.org/">Slicer3D</a></li>
+</ul>
+
+<p>The primary objective is to develop a model capable of efficiently segmenting skin in head CT scans, resulting in a rendered skin model. Previously, manual segmentation required hours of meticulous work per scan. With the aid of training data, models can now be generated in under a minute. Challenges encountered include data acquisition without violating patient privacy rights, optimizing model efficiency, and working through the time consuming manual segmentation process.</p>
+
+<p>My role in this project was to set up the Monai Label parameters that are optimal for the training task needed. This involved altering the code and testing the results a number of times. I also developed the segmentation method that is being used for training, anonymized the data according to HIPPA compliance, and am currently working on setting up a server from which other students can upload data for training the model. There were a lot of challenges in this project, and I am still working on it. There is a lot of data required for training accuracy. Once that is completed, I will be testing and validating the models to check for accuracy.</p>
+
+<h2 id="future-goals">Future Goals</h2>
+
+<p>The project’s future trajectory includes the integration of rendered models with live facial tracking technology <a href="https://mediapipe.dev/">Google MediaPipe</a>. This could potentially lead to advancements in surgical procedures down the line. Given the exorbitant costs of medical technology, especially in resource-limited regions, the project emphasizes the value of open-source research as a driver for positive change.</p>
+
+<p><strong>Note:</strong> This project is ongoing, and a GitHub repository has not yet been established.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
