@@ -48,7 +48,9 @@
       "summary": "Biomedical technology research",
       "highlights": [
         "Develop program to analyze surface curvature data for 3D bone meshes",
-        "Train AI to recognize and create craniofacial models from CT scans"]
+        "Worked with medical professionals to train, validate, and implement AI-driven models, designed for enhancing the precision and efficacy of image-guided surgical techniques",
+        "Implemented Google MediaPipe for use in a custom Android application and designed a method to map facial recognition to models",
+        "Wrote Python code to perform analysis on raw data and derive useful statistical values" ]
     }
   ],
   "awards": [
