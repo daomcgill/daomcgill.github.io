@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/segment.jpg
+image: img/home.jpg
 title: "Where's My Item?"
 date: 2023
 published: true
