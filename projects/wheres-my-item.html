@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Where's My Item? | Dao McGill | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/daomcgill.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dao McGill | Professional Portfolio">
+    <meta property="og:url" content="https://daomcgill.github.io/projects/wheres-my-item.html">
+    <meta property="og:title" content="Where's My Item? | Dao McGill | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/daomcgill.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Where's My Item? | Dao McGill | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Dao McGill</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Where's My Item?</h1>
+ <p><img class="img-fluid" src="../img/wheres-my-item/landing.png" /></p>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>For a project in my Software Engineering class, I was part of a team that built a site for UH Manoa Lost and Found. The tools we used to achieve this are:</p>
+
+<ul>
+  <li><a href="https://react.dev/">React</a></li>
+  <li><a href="https://guide.meteor.com/react">Meteor</a></li>
+  <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+  <li><a href="https://react-bootstrap.netlify.app/">React Bootstrap</a></li>
+</ul>
+
+<p>The purpose of the site is to allow users to sign up for an account, and use it to browse for items in the lost and found. If the user sees their item, they can fill out a Claim Form, which is sent to the Admin account. The admins can see the claims, and decide what the next steps should be. My team kept track of our tasks by creating issues and organizing them on a GitHub project board. Each member could then assign themselves issues to work on.</p>
+
+<h2 id="my-role">My Role</h2>
+
+<p>I worked on several tasks in this project, here are the most notable:</p>
+
+<p><img class="img-fluid" src="../img/wheres-my-item/founditems.png" /></p>
+
+<ol>
+  <li>I created the functionality of the Found Items page. This involved creating a Collection in the Mongo database, and specifying the schema for the objects (for example, each object has a category, color, etc.) which would be displayed in the page. I also made an option for the user to filter the items by category, color, or both, along with a Sort button that lets the user flip between Ascending or Descending date posted. Each item has an associated Claim Item button.</li>
+</ol>
+
+<p><img class="img-fluid" src="../img/wheres-my-item/claimform.png" /></p>
+
+<ol>
+  <li>By following the link to claim an item, the user is brought to a Claim Form. It was a little challenging for me to implement this form, as each form needed to be associated with its correlating item, and an item can have multiple forms. I ended up making a separate Collection for Claims in MongoDB. I then made schema for each Claim so that it would save its item’s ID from the URL of the page. This would allow for the Admin page to be able to see which claim went with which item.</li>
+</ol>
+
+<p><img class="img-fluid" src="../img/wheres-my-item/image.png" /></p>
+
+<ol>
+  <li>I used <a href="https://cloudify.co/">Cloudify</a> to allow users to optionally upload their images along with their claims. Clicking on upload brings up the user’s file explorer, from which they could select their image. At first, I was having trouble when clicking Submit Claim too soon after selecting an image, since the image was not yet uploaded. I solved this by not making the Submit button clickable in the time that an image is being uploaded</li>
+</ol>
+
+<h2 id="overall">Overall</h2>
+
+<p>In conclusion, the “Where’s My Item?” project for the UH Manoa Lost and Found site has been a significant undertaking that effectively involving a range of technologies including React, Meteor, MongoDB, and React Bootstrap. My role in developing the Found Items page, implementing the Claim Form, and integrating Cloudify for image uploads has been both challenging and rewarding. This project not only enhanced my technical skills but also provided valuable insights into working as a team. The experience and knowledge gained from this project will undoubtedly be beneficial in my future endeavors in software engineering.</p>
+
+<p>Find the code and detailed information in the <a href="https://wheres-my-item.github.io/">GitHub repository</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

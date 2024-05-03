@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Interpreting Surface Curvature Data on 3D Bone Meshes | Dao McGill | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/daomcgill.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dao McGill | Professional Portfolio">
+    <meta property="og:url" content="https://daomcgill.github.io/projects/bone-robusticity.html">
+    <meta property="og:title" content="Interpreting Surface Curvature Data on 3D Bone Meshes | Dao McGill | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/daomcgill.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Interpreting Surface Curvature Data on 3D Bone Meshes | Dao McGill | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Dao McGill</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Interpreting Surface Curvature Data on 3D Bone Meshes</h1>
+ <p><img src="../img/hist.png" alt="Histogram" width="800px" style="margin-right: 10px" /></p>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>The goal of this project was to accurately measure surface curvature values of 3D meshes, specifically scanned human bones. Previously, the measurement of “robusticity” relied on subjective visual assessment, leading to imprecise values with limited analytical value.</p>
+
+<p>To address this, I developed a system using open-source software for analyzing 3D triangular meshes. The challenge in trying to measure surface curvature of a mesh is that it technically does not have a surface. Meshes are created out of many triangle, joined at the vertices to other triangles. To solve this I ended up measuring the change in slope from each triangle’s vertex, as it relates to its neighboring vertex. By combining the software’s output with custom Python code, I was able to provide a comprehensive statistical analysis of the curvature data.</p>
+
+<p>This was the first project I worked on as a student intern, and it taught me a lot. I went into this not knowing much about any part of the process that would be involved, and ended up figuring out how to do each step, one at a time. Another part that was interesting was working with non-CS people, and being primarily responsible for the creation of the software aspect of a solution, from start to finish.</p>
+
+<p><img src="../img/selection.png" alt="Selection" width="800px" style="margin-right: 10px" /></p>
+
+<h2 id="project-repository">Project Repository</h2>
+
+<p>Find the code and detailed information in the <a href="https://github.com/daomcgill/meshlab-bone-robusticity">GitHub repository</a>.</p>
+
+<p><img src="../img/robusticity_ss.jpg" alt="Robusticity" width="800px" /></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
