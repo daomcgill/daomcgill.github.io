@@ -30,5 +30,6 @@ This was the first project I worked on as a student intern, and it taught me a l
 
 Find the code and detailed information in the [GitHub repository](https://github.com/daomcgill/meshlab-bone-robusticity).
 
+
   <img src="../img/robusticity_ss.jpg" alt="Robusticity" width="600px">
 
