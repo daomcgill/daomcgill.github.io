@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="ICS 414: Reflecting on a Financial Application Project | Dao McGill | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/daomcgill.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dao McGill | Professional Portfolio">
+    <meta property="og:url" content="https://daomcgill.github.io/essays/414-reflection.html">
+    <meta property="og:title" content="ICS 414: Reflecting on a Financial Application Project | Dao McGill | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/daomcgill.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>ICS 414: Reflecting on a Financial Application Project | Dao McGill | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Dao McGill</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">ICS 414: Reflecting on a Financial Application Project</h1>
+  <span class="date">13 Dec 2024</span>
+  <hr>
+  <h1 id="ics-414-reflecting-on-a-financial-application-project">ICS 414: Reflecting on a Financial Application Project</h1>
+<p><img src="/img/in5pire/home.png" alt="home" /></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>As a Level 2 software engineering course and part of my final semester, ICS 414 provided an opportunity to advance my software engineering skills. The course challenged me to apply prior knowledge in a fast-paced, collaborative setting while delivering a professional-grade financial application for accountants. From project inception to delivery, our team of seven developed a complex solution that showcased our technical abilities, problem-solving skills, and capacity to handle real-world requirements. This reflection discusses the key lessons, challenges, and growth I experienced during the course.</p>
+
+<h2 id="building-upon-prior-knowledge">Building Upon Prior Knowledge</h2>
+<p>Unlike introductory software engineering courses, ICS 414 assumed prior familiarity with fundamental tools and technologies. The course focused on refining and deepening our understanding of software engineering processes, such as requirements gathering, design, implementation, testing, and project management. We worked through a structured workflow with clearly defined milestones.</p>
+
+<p>Our assigned project—a financial projection tool with spreadsheet functionality—posed new challenges. The spreadsheets were particularly complex, consisting of multiple sheets, interconnected formulas, and dynamic calculations. To address this, we organized the backend using multiple MongoDB collections to store and manage vast amounts of interdependent data. This approach allowed us to handle scalability and optimize performance.</p>
+
+<p>Working on a professional-grade project reinforced the importance of adhering to coding standards, implementing rigorous testing procedures, and iterating based on feedback. These practices ensured we delivered reliable and maintainable software.</p>
+
+<h2 id="technologies-used">Technologies Used</h2>
+<p>ICS 414 emphasized practical, real-world tools and frameworks that are integral to modern software development. Our project utilized:</p>
+<ol>
+  <li>
+    <p>Meteor and React: These frameworks enabled us to quickly build and deploy a dynamic, modular web application.</p>
+  </li>
+  <li>
+    <p>Git and GitHub: We managed tasks, milestones, and progress using GitHub organizations and project boards. Issue-Driven Project Management (IDPM) provided structure and transparency for our team.</p>
+  </li>
+  <li>
+    <p>Continuous Integration (CI): Automating tests with GitHub Actions helped us maintain code quality and streamline integration.</p>
+  </li>
+  <li>
+    <p>Bootstrap 5: For UI design, Bootstrap simplified the creation of responsive, user-friendly interfaces.</p>
+  </li>
+  <li>
+    <p>MongoDB: We organized complex financial data into multiple collections, allowing us to dynamically link projections and manage large datasets efficiently.</p>
+  </li>
+</ol>
+
+<p>By utilizing these tools, we built a scalable and efficient solution while adhering to modern software engineering best practices.</p>
+
+<h2 id="quality-assurance-and-code-reliability">Quality Assurance and Code Reliability</h2>
+<p><img src="/img/in5pire/project-board.png" alt="project-board" />
+Maintaining high code quality was a major focus throughout the project, as we aimed to deliver a high quality product. ICS 414 emphasized rigorous quality assurance (QA) practices, which we integrated into our workflow:</p>
+<ol>
+  <li>
+    <p>Unit Testing: We implemented unit tests to validate individual functions and ensure that the core logic behaved as expected.</p>
+  </li>
+  <li>
+    <p>Integration Testing: We verified the interactions between different components, particularly where MongoDB collections and Meteor methods were linked.</p>
+  </li>
+  <li>
+    <p>Code Reviews: Weekly code reviews allowed us to identify issues early and improve code readability.</p>
+  </li>
+  <li>
+    <p>Continuous Integration: Using GitHub Actions, we used an automated testing process, so that new changes did not introduce issues or break existing functionality.</p>
+  </li>
+  <li>
+    <p>Linting: ESLint enforced coding standards and helped maintain clean, consistent code across the project.</p>
+  </li>
+</ol>
+
+<p>By combining these QA practices, we minimized bugs, reduced technical debt, and delivered a polished application. The emphasis on testing and reviews also helped us identify edge cases and improve the overall performance and reliability of our solution.</p>
+
+<h2 id="customer-milestones-and-iterative-development">Customer Milestones and Iterative Development</h2>
+<p>A critical component of the course was the inclusion of customer milestones, where we regularly presented our progress and received feedback. These meetings simulated real-world client interactions and pushed us to adapt our work to evolving requirements.</p>
+
+<p>Each milestone required us to demonstrate completed functionality, gather feedback, and revise or extend features. Iterative development became a cornerstone of our workflow, reinforcing the importance of responsiveness and user-centered design.</p>
+
+<h2 id="team-collaboration-and-problem-solving">Team Collaboration and Problem-Solving</h2>
+<p>With a team of seven, collaboration and task management were essential to our success. Communication played a key role in overcoming challenges. Regular meetings and discussions over Discord allowed us to address blockers, clarify misunderstandings, and align on priorities. By breaking down complex tasks into manageable components, we ensured steady progress without overwhelming any single team member.</p>
+
+<p>Our ability to function as a cohesive team contributed significantly to the project’s success and mirrored the dynamics of professional software development teams.</p>
+
+<h2 id="overcoming-challenges">Overcoming Challenges</h2>
+<p><img src="/img/in5pire/spreadsheet.png" alt="spreadsheet" />
+Throughout the semester, we faced several challenges that tested our technical and problem-solving skills:</p>
+
+<ol>
+  <li>
+    <p>Managing Complex Spreadsheets: Understanding linked data across multiple sheets with intricate formulas was a key requirement. We solved this by efficiently organizing data within MongoDB collections, allowing dynamic updates and seamless integration.</p>
+  </li>
+  <li>
+    <p>Customer Feedback Integration: Customer milestones required us to iterate quickly based on feedback, balancing improvements with maintaining project timelines.</p>
+  </li>
+  <li>
+    <p>Ensuring Code Quality: As the project grew, we relied on unit testing, integration testing, and weekly reviews to maintain a clean and functional codebase.</p>
+  </li>
+  <li>
+    <p>Balancing Workload: Task delegation and Issue-Driven Project Management allowed us to divide work equitably, ensuring consistent progress.</p>
+  </li>
+</ol>
+
+<p>These experiences strengthened my ability to analyze problems, explore solutions, and adapt to changing requirements—skills that are critical in software development.</p>
+
+<h2 id="technical-growth">Technical Growth</h2>
+<p>ICS 414 offered a valuable opportunity to refine and showcase my software engineering capabilities:</p>
+<ul>
+  <li>Advanced Technical Skills: I expanded my proficiency in JavaScript, React, and Meteor while deepening my understanding of MongoDB for data management.</li>
+  <li>Project Management: Applying agile workflows and IDPM principles to a team project improved my ability to organize and deliver results efficiently.</li>
+  <li>Quality Assurance: Implementing unit and integration testing, along with code reviews, reinforced the importance of building maintainable software.</li>
+  <li>Customer Interaction: Presenting progress, gathering feedback, and iterating based on customer input added to my ability to deliver user-centric solutions.</li>
+  <li>Team Dynamics: Collaborating with a team taught me how to communicate effectively, resolve conflicts, and make use of individual strengths for the success of the project.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>ICS 414 was not an introduction to software engineering but rather an opportunity to refine and apply the skills I have developed over the course of my degree. Working on a complex financial application challenged me to produce real-world solutions while operating in a team-driven environment. Regular customer milestones pushed us to iterate, adapt to feedback, and prioritize high-impact improvements.</p>
+
+<p>Through this project, I gained practical experience with tools and technologies that are critical in modern software development. Managing spreadsheets and dynamic data structures using MongoDB and Meteor solidified my ability to handle complex requirements efficiently.</p>
+
+<p>As I complete my degree and look forward to starting my career, ICS 414 stands out as a course that bridged the gap between academia and industry. I am confident that the skills I have improved will aid me in contributing meaningfully to any software development team.</p>
+
+<h2 id="project-home-page">Project Home Page</h2>
+<p><img src="/img/in5pire/about-us.png" alt="about" />
+For a look at our project, visit our <a href="https://ics-414-in5pire.github.io/">project home page</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
