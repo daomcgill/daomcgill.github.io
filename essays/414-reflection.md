@@ -13,8 +13,7 @@ labels:
   - QA
   - Financial Application
 ---
-# ICS 414: Reflecting on a Financial Application Project
-<img src="../img/in5pire/home.png" alt="Home Page" style="width: 600px; display: block; margin: 0 auto;" />
+<img src="../img/in5pire/home.png" alt="Home Page" style="width: 800px; align: left;" />
 
 
 ## Introduction
@@ -42,7 +41,7 @@ ICS 414 emphasized practical, real-world tools and frameworks that are integral 
 By utilizing these tools, we built a scalable and efficient solution while adhering to modern software engineering best practices.
 
 ## Quality Assurance and Code Reliability
-<img src="../img/in5pire/project-board.png" alt="Project Board" style="width: 600px; display: block; margin: 0 auto;" />
+<img src="../img/in5pire/project-board.png" alt="Project Board" style="width: 800px; align: left;" />
 
 Maintaining high code quality was a major focus throughout the project, as we aimed to deliver a high quality product. ICS 414 emphasized rigorous quality assurance (QA) practices, which we integrated into our workflow:
 1. Unit Testing: We implemented unit tests to validate individual functions and ensure that the core logic behaved as expected.
@@ -68,7 +67,7 @@ With a team of seven, collaboration and task management were essential to our su
 Our ability to function as a cohesive team contributed significantly to the project’s success and mirrored the dynamics of professional software development teams.
 
 ## Overcoming Challenges
-<img src="../img/in5pire/spreadsheet.png" alt="Spreadsheet" style="width: 600px; display: block; margin: 0 auto;" />
+<img src="../img/in5pire/spreadsheet.png" alt="Spreadsheet" style="width: 800px; align: left;" />
 
 Throughout the semester, we faced several challenges that tested our technical and problem-solving skills:
 
@@ -98,6 +97,6 @@ Through this project, I gained practical experience with tools and technologies 
 As I complete my degree and look forward to starting my career, ICS 414 stands out as a course that bridged the gap between academia and industry. I am confident that the skills I have improved will aid me in contributing meaningfully to any software development team.
 
 ## Project Home Page
-<img src="../img/in5pire/about-us.png" alt="About Us" style="width: 600px; display: block; margin: 0 auto;" />
+<img src="../img/in5pire/about-us.png" alt="About Us" style="width: 800px; align: left;" />
 
 For a look at our project, visit our [project home page](https://ics-414-in5pire.github.io/)
