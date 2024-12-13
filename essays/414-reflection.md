@@ -14,7 +14,8 @@ labels:
   - Financial Application
 ---
 # ICS 414: Reflecting on a Financial Application Project
-![home](/img/in5pire/home.png)
+<img src="../img/in5pire/home.png" alt="Home Page" style="width: 600px; display: block; margin: 0 auto;" />
+
 
 ## Introduction
 As a Level 2 software engineering course and part of my final semester, ICS 414 provided an opportunity to advance my software engineering skills. The course challenged me to apply prior knowledge in a fast-paced, collaborative setting while delivering a professional-grade financial application for accountants. From project inception to delivery, our team of seven developed a complex solution that showcased our technical abilities, problem-solving skills, and capacity to handle real-world requirements. This reflection discusses the key lessons, challenges, and growth I experienced during the course.
@@ -41,7 +42,8 @@ ICS 414 emphasized practical, real-world tools and frameworks that are integral 
 By utilizing these tools, we built a scalable and efficient solution while adhering to modern software engineering best practices.
 
 ## Quality Assurance and Code Reliability
-![project-board](/img/in5pire/project-board.png)
+<img src="../img/in5pire/project-board.png" alt="Project Board" style="width: 600px; display: block; margin: 0 auto;" />
+
 Maintaining high code quality was a major focus throughout the project, as we aimed to deliver a high quality product. ICS 414 emphasized rigorous quality assurance (QA) practices, which we integrated into our workflow:
 1. Unit Testing: We implemented unit tests to validate individual functions and ensure that the core logic behaved as expected.
 
@@ -66,7 +68,8 @@ With a team of seven, collaboration and task management were essential to our su
 Our ability to function as a cohesive team contributed significantly to the project’s success and mirrored the dynamics of professional software development teams.
 
 ## Overcoming Challenges
-![spreadsheet](/img/in5pire/spreadsheet.png)
+<img src="../img/in5pire/spreadsheet.png" alt="Spreadsheet" style="width: 600px; display: block; margin: 0 auto;" />
+
 Throughout the semester, we faced several challenges that tested our technical and problem-solving skills:
 
 1. Managing Complex Spreadsheets: Understanding linked data across multiple sheets with intricate formulas was a key requirement. We solved this by efficiently organizing data within MongoDB collections, allowing dynamic updates and seamless integration.
@@ -95,5 +98,6 @@ Through this project, I gained practical experience with tools and technologies 
 As I complete my degree and look forward to starting my career, ICS 414 stands out as a course that bridged the gap between academia and industry. I am confident that the skills I have improved will aid me in contributing meaningfully to any software development team.
 
 ## Project Home Page
-![about](/img/in5pire/about-us.png)
+<img src="../img/in5pire/about-us.png" alt="About Us" style="width: 600px; display: block; margin: 0 auto;" />
+
 For a look at our project, visit our [project home page](https://ics-414-in5pire.github.io/)
